@@ -6,7 +6,7 @@
 /*   By: johtadro <johtadro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/24 14:54:39 by johtadro          #+#    #+#             */
-/*   Updated: 2026/08/24 15:02:29 by johtadro         ###   ########.fr       */
+/*   Updated: 2026/08/24 16:32:55 by johtadro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strlen(char *str)
 {
-	int	i;
+	size_t	i;
 
 	i = 1;
 	if (!*str)

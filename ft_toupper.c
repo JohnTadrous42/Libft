@@ -6,7 +6,7 @@
 /*   By: johtadro <johtadro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/27 15:50:18 by johtadro          #+#    #+#             */
-/*   Updated: 2026/08/27 15:59:39 by johtadro         ###   ########.fr       */
+/*   Updated: 2026/09/03 19:10:10 by johtadro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	ft_toupper(int c)
 // 	char	c;
 // 	char	C;
 
-// 	c = '\0';
+// 	c = 'c';
 // 	C = ft_toupper(c);
 // 	printf("%c\n", C);
 // }

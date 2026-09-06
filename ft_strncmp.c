@@ -6,7 +6,7 @@
 /*   By: johtadro <johtadro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/03 20:17:39 by johtadro          #+#    #+#             */
-/*   Updated: 2026/09/03 21:22:08 by johtadro         ###   ########.fr       */
+/*   Updated: 2026/09/06 10:43:04 by johtadro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while (i < n)

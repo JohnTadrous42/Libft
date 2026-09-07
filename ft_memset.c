@@ -6,7 +6,7 @@
 /*   By: johtadro <johtadro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/24 15:10:29 by johtadro          #+#    #+#             */
-/*   Updated: 2026/08/25 14:22:52 by johtadro         ###   ########.fr       */
+/*   Updated: 2026/09/07 13:07:40 by johtadro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,13 @@ void	*ft_memset(void *s, int c, size_t n)
 // int	main(void)
 // {
 // 	char	strold[] = "Hello 42 Prague";
+// 	size_t	n;
 
+// 	n = 0;
+// 	while (strold[n])
+// 		n++;
 // 	printf("before: %s\n", strold);
-// 	ft_memset(strold + 5, '*', 4);
+// 	ft_memset(strold, '*', n);
 // 	printf("after: %s\n", strold);
 // 	return (0);
 // }

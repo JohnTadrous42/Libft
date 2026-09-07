@@ -6,7 +6,7 @@
 /*   By: johtadro <johtadro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/03 19:45:35 by johtadro          #+#    #+#             */
-/*   Updated: 2026/09/03 21:31:58 by johtadro         ###   ########.fr       */
+/*   Updated: 2026/09/07 17:05:27 by johtadro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,7 @@ char	*ft_strrchr(const char *s, int c)
 
 	i = 0;
 	while (s[i])
-	{
 		i++;
-	}
-	i--;
 	while (i >= 0)
 	{
 		if (s[i] == (char)c)

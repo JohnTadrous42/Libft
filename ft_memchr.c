@@ -6,7 +6,7 @@
 /*   By: johtadro <johtadro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/03 21:29:44 by johtadro          #+#    #+#             */
-/*   Updated: 2026/09/06 10:42:26 by johtadro         ###   ########.fr       */
+/*   Updated: 2026/09/07 17:18:18 by johtadro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		if (ptr[i] == c)
+		if (ptr[i] == (unsigned char)c)
 			return ((void *)&ptr[i]);
 		i++;
 	}

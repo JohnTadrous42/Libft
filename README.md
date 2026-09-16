@@ -1,9 +1,9 @@
 # Libft - 42 School Project
 
 <p align="center">
-  <img src="[https://img.shields.io/badge/Language-C-blue.svg](https://img.shields.io/badge/Language-C-blue.svg)" alt="Language C" />
-  <img src="[https://img.shields.io/badge/School-42-black.svg](https://img.shields.io/badge/School-42-black.svg)" alt="School 42" />
-  <img src="[https://img.shields.io/badge/Makefile-Passing-brightgreen.svg](https://img.shields.io/badge/Makefile-Passing-brightgreen.svg)" alt="Makefile" />
+  <img src="https://img.shields.io/badge/Language-C-blue.svg](https://img.shields.io/badge/Language-C-blue.svg" alt="Language C" />
+  <img src="https://img.shields.io/badge/School-42-black.svg](https://img.shields.io/badge/School-42-black.svg" alt="School 42" />
+  <img src="https://img.shields.io/badge/Makefile-Passing-brightgreen.svg](https://img.shields.io/badge/Makefile-Passing-brightgreen.svg" alt="Makefile" />
 </p>
 
 ## Description

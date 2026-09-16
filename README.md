@@ -102,62 +102,6 @@ Compile the library using the standard Makefile rules:
 
 ### 1. Build the library
 ```bash
-git clone <your-repo-url> libft
-cd libft
-make
-```
-
-### 2. Include in your C project
-Include the header file `libft.h` in your source code:
-
-```c
-#include "libft.h"
-#include <stdio.h>
-
-int main(void)
-{
-    char *str = "hello 42";
-    printf("Length: %zu\n", ft_strlen(str));
-    return (0);
-}
-```
-
-### 3. Compile with the library
-Link `libft.a` during your build step:
-
-```bash
-cc main.c -L. -lft -o program
-./program
-```
-| Function | Description |
-| :--- | :--- |
-| `ft_lstnew` | Create a new list node |
-| `ft_lstadd_front` | Add node at the beginning of the list |
-| `ft_lstsize` | Count the number of nodes in the list |
-| `ft_lstlast` | Return the last node of the list |
-| `ft_lstadd_back` | Add node at the end of the list |
-| `ft_lstdelone` | Delete a single node using a custom function |
-| `ft_lstclear` | Delete and free an entire list |
-| `ft_lstiter` | Iterate list and apply function to content of each node |
-| `ft_lstmap` | Apply function to list elements and create a new mapped list |
-
----
-
-## Compilation & Rules
-
-Compile the library using the standard Makefile rules:
-
-* **`make`** or **`make all`**: Compiles source files and archives them into `libft.a`.
-* **`make clean`**: Removes compiled object files (`.o`).
-* **`make fclean`**: Removes object files and the generated library (`libft.a`).
-* **`make re`**: Executes `fclean` followed by `all` for a fresh rebuild.
-
----
-
-## Getting Started & Usage
-
-### 1. Build the library
-```bash
 git clone https://github.com/JohnTadrous42/Libft.git libft
 cd libft
 make

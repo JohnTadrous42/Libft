@@ -1,8 +1,10 @@
 # Libft - 42 School Project
 
-![Language C](https://img.shields.io/badge/Language-C-blue)
-![School 42](https://img.shields.io/badge/School-42-black)
-![Makefile](https://img.shields.io/badge/Makefile-Passing-brightgreen)
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C-blue" alt="Language C" />
+  <img src="https://img.shields.io/badge/School-42-black" alt="School 42" />
+  <img src="https://img.shields.io/badge/Makefile-Passing-brightgreen" alt="Makefile" />
+</p>
 
 ## Description
 

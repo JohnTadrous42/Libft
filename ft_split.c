@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: johnwork <johnwork@student.42.fr>          +#+  +:+       +#+        */
+/*   By: johtadro <johtadro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/10 13:12:38 by johnwork          #+#    #+#             */
-/*   Updated: 2026/09/15 21:54:39 by johnwork         ###   ########.fr       */
+/*   Updated: 2026/09/16 10:29:28 by johtadro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,28 +102,28 @@ char	**ft_split(char const *s, char c)
 	return (tab);
 }
 
-int main(void)
-{
-    char    str[] = "           hello how are you baby!";
-    char    sp = ' ';
-    char    **result;
-    int     i;
-
-    result = ft_split(str, sp);
-    if (!result)
-        return (1);
-    i = 0;
-    while (result[i] != NULL)
-    {
-        printf("%s\n", result[i]);
-        i++;
-    }
-    i = 0;
-    while (result[i])
-    {
-        free(result[i]);
-        i++;
-    }
-    free(result);
-    return (0);
-}
+// int main(void)
+// {
+    // char    str[] = "           hello how are you baby!";
+    // char    sp = ' ';
+    // char    **result;
+    // int     i;
+//
+    // result = ft_split(str, sp);
+    // if (!result)
+        // return (1);
+    // i = 0;
+    // while (result[i] != NULL)
+    // {
+        // printf("%s\n", result[i]);
+        // i++;
+    // }
+    // i = 0;
+    // while (result[i])
+    // {
+        // free(result[i]);
+        // i++;
+    // }
+    // free(result);
+    // return (0);
+// }

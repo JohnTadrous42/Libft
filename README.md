@@ -1,16 +1,11 @@
-# Libft - 42 School Project
+*This project has been created as part of the 42 curriculum by johtadro.*
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C-blue" alt="Language C" />
-  <img src="https://img.shields.io/badge/School-42-black" alt="School 42" />
-  <img src="https://img.shields.io/badge/Makefile-Passing-brightgreen" alt="Makefile" />
-</p>
+# Libft - 42 Prague Project
 
-## Description
+# Description
 
-**Libft** is the very first project in the 42 curriculum. The goal is to build a personal C library containing recreated standard C library functions (`libc`), essential utility functions for string and memory manipulation, and a comprehensive data structure module for **singly linked lists**.
+**Libft** is the very first project in the 42 curriculum. The goal is to build a personal C library containing recreated standard C library functions (`libc`), essential utility functions for string and memory manipulation, and a comprehensive data structure module for **linked lists**.
 
-This static library serves as the core foundation for subsequent projects at 42 (such as *ft_printf*, *get_next_line*, and *push_swap*).
 
 ---
 
@@ -87,45 +82,45 @@ typedef struct s_list
 
 ---
 
+---
+# Instructions
 ## Compilation & Rules
 
 Compile the library using the standard Makefile rules:
 
+### Build the library `libft.a`:
 * **`make`** or **`make all`**: Compiles source files and archives them into `libft.a`.
+### Remove object files `.o`:
 * **`make clean`**: Removes compiled object files (`.o`).
+### Remove object files `.o` and `libft.a`:
 * **`make fclean`**: Removes object files and the generated library (`libft.a`).
+### Full rebuild:
 * **`make re`**: Executes `fclean` followed by `all` for a fresh rebuild.
 
 ---
 
-## Getting Started & Usage
-
-### 1. Build the library
-```bash
-git clone https://github.com/JohnTadrous42/Libft.git libft
-cd libft
-make
-```
-
-### 2. Include in your C project
-Include the header file `libft.h` in your source code:
-
+## Usage & Linking
+To use this library in an external C program:
+### 1. Include the header file:
 ```c
 #include "libft.h"
-#include <stdio.h>
-
-int main(void)
-{
-    char *str = "hello 42";
-    printf("Length: %zu\n", ft_strlen(str));
-    return (0);
-}
 ```
-
-### 3. Compile with the library
-Link `libft.a` during your build step:
+### 2. Compile your source files with the library archive:
+Include the header file `libft.h` in your source code:
 
 ```bash
-cc main.c -L. -lft -o program
-./program
+cc -Wall -Wextra -Werror main.c libft.a -o my_program 
+&& ./my_program
 ```
+---
+# Resources
+
+### References & Documentation
+* **Linux Programmer's Manual (`man` pages):** Consulted for official function prototypes, expected return values, parameter specifications, and standard libc behaviors.
+* **W3Schools (C Reference & Sandbox):** Used to test native library functions, observe baseline behavior, and run edge-case scenarios before beginning independent implementations.
+
+### AI Usage
+In accordance with 42 academic integrity guidelines, Artificial Intelligence was used strictly as a learning and organizational aid:
+* **Conceptual Clarification:** Explaining theoretical concepts behind complex behaviors (such as pointer indirection and overlapping memory safety in buffer functions).
+* **Documentation & Formatting:** Structuring and generating the layout for this `README.md` file to align with the curriculum's subject requirements.
+* **Implementation Note:** All source code, logic, and Makefile configurations were written, tested, and debugged manually.
